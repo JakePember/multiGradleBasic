@@ -1,0 +1,4 @@
+rootProject.name = 'multiGradleBasic'
+include 'common'
+include 'application'
+
