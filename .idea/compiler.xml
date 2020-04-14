@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="multiGradleBasic.application.main" target="11" />
+      <module name="multiGradleBasic.application.test" target="11" />
+      <module name="multiGradleBasic.common.main" target="11" />
+      <module name="multiGradleBasic.common.test" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
