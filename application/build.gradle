@@ -23,8 +23,7 @@ repositories {
 
 dependencies {
     compile project(':common')
+//    implementation files('/Users/jb668650/Documents/GitHub/multiGradleBasic/libs/common-1.0-SNAPSHOT.jar')
 
     compile group: 'com.googlecode.json-simple', name: 'json-simple', version: '1.1.1'
-//    compile name: "common-1.0-SNAPSHOT"
-//    compile files("/Users/jb668650/Documents/jars/common-1.0-SNAPSHOT.jar")
 }
