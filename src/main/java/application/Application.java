@@ -1,15 +1,11 @@
 package application;
 
-import MessageOfDay.MessageOfDay;
-import org.json.simple.parser.JSONParser;
+import com.example.demo.DemoApplication;
 
 public class Application {
     public static void main(String[] args) {
         System.out.println("Goodbye cruel world ...");
 
-
-        JSONParser json = new JSONParser();
-        System.out.println(json);
-        MessageOfDay.message();
+        DemoApplication.message();
     }
 }
