@@ -11,7 +11,9 @@ mainClassName = 'application.Application'
 
 jar {
     manifest {
-        attributes 'Main-Class' : 'application.Application'
+        attributes(
+                'Main-Class' : 'application.Application'
+        )
     }
 }
 
@@ -22,8 +24,10 @@ repositories {
 }
 
 dependencies {
-    compile project(':common')
-//    implementation files('/Users/jb668650/Documents/GitHub/multiGradleBasic/libs/common-1.0-SNAPSHOT.jar')
-
-    compile group: 'com.googlecode.json-simple', name: 'json-simple', version: '1.1.1'
+//    compile project(':common')
+    compileOnly files('/Users/jb668650/Documents/GitHub/multiGradleBasic/libs/common-1.0-SNAPSHOT.jar')
+//    compileOnly files('/Users/jb668650/Documents/GitHub/multiGradleBasic/libs/common-1.0-SNAPSHOT.jar/BOOT-INF/lib/json-simple-1.1.1.jar')
+//    compileOnly files('/Users/jb668650/Documents/GitHub/multiGradleBasic/libs/common-1.0-SNAPSHOT/BOOT-INF/lib/json-simple-1.1.1.jar')
+//    runtimeClasspath files('/Users/jb668650/Documents/GitHub/multiGradleBasic/libs/common-1.0-SNAPSHOT/BOOT-INF/lib/json-simple-1.1.1.jar')
+//    compile group: 'com.googlecode.json-simple', name: 'json-simple', version: '1.1.1'
 }
